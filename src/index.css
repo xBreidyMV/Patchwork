@@ -29,6 +29,25 @@ a {
 
 button:focus-visible,
 a:focus-visible {
-  outline: 3px solid #818cf8;
+  outline: 3px solid #81d6f8;
   outline-offset: 2px;
+}
+
+/* Scrollbar moderno y sutil que no afecta la estructura */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
 }
